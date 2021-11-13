@@ -1,0 +1,390 @@
+/* ここから下に記載していく */
+@charset "UTF-8";
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4%;
+  /* padding-right: 4%; */
+}
+
+
+.nav {
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* margin-right: 50px;  */
+    color: #222222;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center; 
+  }
+  .nav li{
+    margin-right: 50px; 
+  }
+
+  .navfont{
+      font: 21px;
+      color: #222222
+  }
+
+
+.maintitle {
+    padding: 15%;
+    background-image: url(./mainbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.maintitlep {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.EnglishTY{
+    font-size: 24px;
+    color: #ffd61a;
+    padding-top: 60pt;
+    padding-bottom: 30pt;
+    text-align: center;
+}
+
+.JapaneseT{
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.docu1{
+    font-size: 16px;
+    color: #222222;
+    padding-bottom: 40px;
+    text-align: center;
+    line-height: 20pt;
+}
+
+.disp1{
+    /* width: 100%; */
+    margin-top: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.disp11{
+    width: 100%;
+    height: auto;
+}
+
+
+.columm{
+    font-size: 16px;
+    color: #222222;
+    background-color: #fafafa;
+}
+
+.EnglishTB{
+    font-size: 24px;
+    color: #222222;
+    padding-top: 60pt;
+    padding-bottom: 30pt;
+    text-align: center;
+}
+
+.docu2{
+    font-size: 16px;
+    color: #222222;
+    padding-bottom: 60px;
+    text-align: center;
+    line-height: 20pt;
+}
+/* COURSE */
+/* .tablecourse{
+    border-collapse: collapse;
+    width: 100%;
+    height:auto;
+} */
+/* .tablecourse1{
+    width: 100%;
+    height:auto;
+    padding: 0px;
+} */
+
+
+.tiletitle{
+    margin-bottom: 40px;
+    margin-left: 50px;
+    font-size: 18px;
+    color: #222222;
+    display: flex;
+    justify-content: left;
+}
+
+.tiledocu{
+    margin-left: 50px;
+    font-size: 16px;
+    color: #222222;
+    width: 480px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center; 
+    line-height: 20pt;
+}
+
+.tilepic{
+    width: 100%;
+}
+
+
+.tilebox2{
+    width: 480px;
+    /* margin-top: 120px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    /* align-items: center; */
+}
+
+/* .tiletitle2{
+    margin-bottom: 40px;
+    /* margin-right: 50px; */
+    /* font-size: 18px; */
+    /* color: #222222; */
+    /* display: flex;
+    justify-content: left;
+    align-items: center; */
+    /* text-align:left; */
+/* } */
+
+/* .tiledocu2{
+    /* margin-right: 50px; */
+    /* font-size: 16px; */
+    /* color: #222222; */
+    /* width: 480px; */
+    /* display: flex; */
+    /* justify-content: right; */
+    /* align-items: center;  */
+    /* line-height: 20pt; */
+    /* text-align: left; */
+/* } */
+
+.grayback{
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    }
+
+.coursecontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #fafafa;
+}
+
+
+
+/* NEWS */
+.NEWScontainer {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    /* grid-template-rows: 400px; */
+    gap: 30px;
+    justify-content: center;
+}
+
+.grid-news {
+    width: 100%;
+   }
+
+.grid-news:hover {
+ border:solid 1px red;
+}
+
+.news-date{
+    font-size: 16px;
+    color: #222222;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.news-abs{
+    font-size: 14px;
+    color: #222222;
+    text-align: left;
+    line-height: 20pt;
+}
+
+.button{
+    width: 300px;
+    height: 60px;
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: goldenrod;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.button:hover{
+    border: solid #222222;
+    background-color: grey;
+    color: yellow;
+}
+
+/*  ACCESS*/
+.grayback2{
+background-color: #fafafa;
+
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto;
+}
+
+.centertable{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto;
+}
+
+.tabledocu{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    margin:0 auto;
+    border-collapse: collapse;
+    width: 800px 400px;
+}
+.tabledocuthtd{
+    text-align: left;
+    vertical-align: middle; 
+    margin-left: 5px;
+    font-size: 16px;
+    color: #222222;
+    /* border: solid #ffd61a; */
+    height: 30px;
+    padding: 10px;
+}
+
+.docu3{
+    font-size: 16px;
+    color: #222222;
+    padding-bottom: 70px;
+    text-align: center;
+    line-height: 20pt;
+}
+
+.tabledocu2{
+    /* margin-top: 60px; */
+    /* margin-bottom: 60px; */
+    text-align: center;
+    margin:0 auto;
+    border-collapse: collapse;
+    width: 800px 400px;
+
+
+}
+.tabledocu2 th{
+    text-align: left;
+    vertical-align: middle; 
+    padding-left: 16px;
+    font-size: 16px;
+    color: #222222;
+    height: 30px;
+    width: 240px;
+    padding: 10px;
+    border-top:#bfbfbf 3px solid;
+    border-bottom: #bfbfbf 3px solid;
+    border-right: solid 3px #bfbfbf;
+}
+
+.tabledocu2 td{
+    text-align: left;
+    vertical-align: middle; 
+    margin-left: 5px;
+    font-size: 16px;
+    color: #222222;
+    /* border: solid #ffd61a; */
+    height: 30px;
+    width: 400px;
+    padding: 8px;
+    border-top: 3px solid #bfbfbf;
+    border-bottom: 3px solid #bfbfbf;
+}
+
+.topiczone{
+    padding-left: 16px;
+    font-size: 16px;
+    color: #222222;
+    line-height: 20px;
+}
+
+.answerzone{
+    width: 400px;
+    height: 52px;
+    font-size: 16px;
+    color: #222222;
+}
+
+.answerzone2{
+    margin-left: 8px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #222222;
+    justify-content: left;
+}
+
+.answerframe{
+    width: 328px;
+    height: 36px;
+    /* margin-left: 8px; */
+}
+
+.answerframe2{
+    width: 328px;
+    height: 72px;
+    /* margin-left: 8px; */
+}
+
+/* フッター */
+.footer{
+    margin-top: 140px;
+    margin-bottom: 30px;
+    background-color: #707070;
+}
+
+.CR{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #fafafa;
+}
